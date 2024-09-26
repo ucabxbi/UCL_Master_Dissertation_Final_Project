@@ -62,7 +62,7 @@ def save_to_markdown(result):
     result_str = str(result)
     filename = "financial_analysis_report.md"
     with open(filename, 'w') as f:
-        f.write("# Financial Metrics Report\n\n")
+        f.write("# Financial Analysis Report\n\n")
         f.write(result_str)
     return filename
 
